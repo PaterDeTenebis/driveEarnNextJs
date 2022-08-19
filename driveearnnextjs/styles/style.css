@@ -1,0 +1,737 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #06070b;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: 'BebasNeue-Bold', sans-serif;
+}
+
+body button {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+body a {
+  text-decoration: none;
+}
+
+body .bodylink:hover,
+.body .bodylink:focus,
+.body .bodylink:active {
+  -webkit-filter: invert(0.4) sepia(1) saturate(20) hue-rotate(198deg) brightness(1);
+  filter: invert(0.4) sepia(1) saturate(20) hue-rotate(198deg) brightness(1);
+}
+
+/*Utils*/
+.textXl {
+  font-size: 30px;
+}
+
+.textLg {
+  font-size: 20px;
+}
+
+.textMd {
+  font-size: 16px;
+}
+
+.textSm {
+  font-size: 9px;
+}
+
+.textLight {
+  color: #fff;
+}
+
+.textSuccess {
+  color: #84d078;
+}
+
+.fwb {
+  font-weight: bold;
+}
+
+.ttu {
+  text-transform: uppercase;
+}
+
+.btnRound {
+  border-radius: 100%;
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.carCard {
+  border-radius: 15px;
+  background-image: url(../public/img/carCard_bg.png);
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.carCard .carCard_top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.curBtn {
+  background: radial-gradient(#1c1e26, #16171e);
+}
+
+.textSec {
+  color: #40434d;
+}
+
+.btnMain {
+  border-radius: 25px;
+  padding: 7px;
+  border: none;
+  background: none;
+}
+
+.btnBlue {
+  background: #2651d0;
+  -webkit-box-shadow: inset 0px 0px 3px #ffffff44;
+  box-shadow: inset 0px 0px 3px #ffffff44;
+}
+
+.btnRed {
+  background: #ba313f;
+  -webkit-box-shadow: inset 0px 0px 3px #ffffff44;
+  box-shadow: inset 0px 0px 3px #ffffff44;
+}
+
+.btnGreen {
+  background: #40aa20;
+  -webkit-box-shadow: inset 0px 0px 3px #ffffff44;
+  box-shadow: inset 0px 0px 3px #ffffff44;
+}
+
+.btnPink {
+  background: #a928c1;
+  -webkit-box-shadow: inset 0px 0px 3px #ffffff44;
+  box-shadow: inset 0px 0px 3px #ffffff44;
+}
+
+.btnPurple {
+  background: #5a07a7;
+  -webkit-box-shadow: inset 0px 0px 3px #ffffff44;
+  box-shadow: inset 0px 0px 3px #ffffff44;
+}
+
+.btnWhite {
+  background: #fff;
+  -webkit-box-shadow: inset 0px 0px 3px #ffffff44;
+  box-shadow: inset 0px 0px 3px #ffffff44;
+  color: #000;
+}
+
+.boxShadow {
+  -webkit-box-shadow: inset 0px 0px 3px #ffffff24;
+  box-shadow: inset 0px 0px 3px #ffffff24;
+}
+
+.icon {
+  width: 50%;
+  height: auto;
+}
+
+.bigIcon {
+  width: 100%;
+  height: auto;
+}
+
+.singleEarned .singleEarned_info {
+  width: 68% !important;
+}
+
+.btnSmall {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background: #7f9fff;
+  border: none;
+}
+
+.carousel-indicators {
+  bottom: -40px;
+}
+
+.carInd {
+  width: 5px !important;
+  height: 5px !important;
+  border-radius: 100%;
+}
+
+.bordered {
+  border: 1px solid #fff !important;
+}
+
+.mr {
+  margin-right: 10px;
+}
+
+.ml {
+  margin-left: 10px;
+}
+
+.flexRowCenter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.flexCenter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.cardDark {
+  padding: 10px;
+  background: #0d0e15;
+  border-radius: 15px;
+}
+
+.carsCard_header_item {
+  width: 32%;
+  height: 45px;
+  padding: 0 10px;
+  border-radius: 20px;
+}
+
+.carsCard_header_item .btnRound {
+  width: 25px;
+  height: 25px;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  height: 1rem;
+  width: 1rem;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  z-index: 3;
+}
+
+.w100 {
+  width: 100% !important;
+}
+
+.w100 .visualList_item {
+  margin-left: 15px;
+}
+
+/*Sectional*/
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 30px 20px;
+}
+
+.header .btnRound {
+  width: 50px;
+  height: 50px;
+  background: #0d0e15;
+}
+
+.wrapper {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-bottom: 100px;
+}
+
+.main {
+  padding: 0 20px;
+  margin-top: 20px;
+  position: relative;
+}
+
+.main .carCard {
+  padding: 10px 15px;
+}
+
+.main .carCard .carCard_top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.main .carCard .carCard_top .curBtn {
+  height: 65px;
+  width: 65px;
+}
+
+.main .carCard .carCard_top .holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: left;
+  width: 70%;
+}
+
+.main .carCard .carCard_top .holder .holder_bot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.main .carCard .carCard_top .holder .holder_bot .btnMain {
+  width: 45%;
+  font-size: 11px;
+}
+
+.main .carCard .carCard_bot {
+  position: relative;
+  height: 166px;
+}
+
+.main .carCard .carCard_bot .carCard_botImg {
+  position: absolute;
+  bottom: -35px;
+  left: 0;
+  width: 100%;
+  -webkit-transform: scale(1.12);
+  transform: scale(1.12);
+}
+
+.main .carCard .carCard_bot .carCard_botImg .carCard_botImg_item {
+  width: 100%;
+}
+
+.main .shortstats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 10px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 60px;
+  border-radius: 40px;
+  -webkit-box-shadow: inset 0px 0px 3px #ffffff24;
+  box-shadow: inset 0px 0px 3px #ffffff24;
+}
+
+.main .shortstats .btnMain {
+  width: 23%;
+}
+
+.main .shortstats .shortstats_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 18%;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.main .shortstats .shortstats_item .btnRound {
+  height: 25px;
+  width: 25px;
+}
+
+.main .statsSingle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 15px;
+  background: #0d0e15;
+  border-radius: 13px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.main .statsSingle .statsSingle_icon {
+  width: 35px;
+  height: 35px;
+}
+
+.main .statsSingle .statsSingle_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+  width: 40%;
+}
+
+.main .statsSingle .statsSingle_info .range {
+  position: relative;
+  width: 100%;
+}
+
+.main .statsSingle .statsSingle_info .range .rangeInd {
+  font-size: 12px;
+  color: #ffffff;
+}
+
+.main .statsSingle .statsSingle_info .range .rangeMin {
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+}
+
+.main .statsSingle .statsSingle_info .range .rangeMax {
+  position: absolute;
+  bottom: -8px;
+  right: 0;
+}
+
+.main .statsSingle .statsSingle_info .range .rangeInput {
+  width: 100%;
+}
+
+.main .statsSingle .statsSingle_add {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.main .carouselWrapper .walletCard {
+  background-image: url(../public/img/walleCardBg.png);
+  background-position: center top;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 15px 20px;
+}
+
+.main .carouselWrapper .walletCard .walletCard_top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.main .carouselWrapper .walletCard .walletCard_top .walletCard_topItem .textSec {
+  color: #93aefc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-weight: normal;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.main .carouselWrapper .walletCard .walletCard_top .walletCard_topItem .btnMain {
+  background: #2850c5;
+  font-weight: bold;
+}
+
+.main .carouselWrapper .walletCard .walletCard_top .walletCard_topItem .btnSmall {
+  margin-left: 15px;
+}
+
+.main .carouselWrapper .walletCard .walletBalance {
+  margin: 20px 0;
+}
+
+.main .walletLog {
+  margin-top: 20px;
+}
+
+.main .carsSection .shortstats {
+  margin-top: 20px;
+}
+
+.main .carsSection .carsCard {
+  padding: 20px;
+  border-radius: 15px;
+  background: #0d0e15;
+}
+
+.main .carsSection .carsCard .carsCard_header .carsCard_header_item {
+  width: 32%;
+  height: 45px;
+  padding: 0 10px;
+  border-radius: 20px;
+}
+
+.main .carsSection .carsCard .carsCard_header .carsCard_header_item .btnRound {
+  width: 25px;
+  height: 25px;
+}
+
+.main .carsSection .carsCard .carsCard_img {
+  margin-top: 20px;
+}
+
+.main .visualSection {
+  margin-top: 20px;
+}
+
+.main .visualSection .vlWrapper {
+  margin-top: 15px;
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.main .visualSection .vlWrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.main .visualSection .visualList {
+  width: 440px;
+}
+
+.main .visualSection .visualList .visualList_item {
+  width: 100px;
+}
+
+.main .visualSection .visualDescr {
+  margin-top: 20px;
+}
+
+.main .visualSection .visualDescr .cardDark .itemPreview {
+  padding: 0 15px;
+}
+
+.main .visualSection .visualDescr .cardDark .itemPreview .itemPreview_side {
+  position: relative;
+  width: 44%;
+}
+
+.main .visualSection .visualDescr .cardDark .itemPreview .itemPreview_side .btnRound {
+  width: 25px;
+  height: 25px;
+}
+
+.main .visualSection .visualDescr .cardDark .itemPreview .itemPreview_side .btnMain,
+.main .visualSection .visualDescr .cardDark .itemPreview .itemPreview_side .carsCard_header_item {
+  width: 80%;
+  margin: 5px;
+}
+
+.main .visualSection .visualDescr .cardDark .itemPreview .itemPreview_side .bigIcon {
+  position: relative;
+  z-index: 2;
+}
+
+.main .visualSection .visualDescr .cardDark .itemPreview .itemPreview_side .previeBg {
+  position: absolute;
+  width: 85px;
+  height: 85px;
+  border-radius: 100%;
+  background: #11131a;
+  right: 10px;
+  bottom: -10px;
+  z-index: 1;
+}
+
+.main .statHolder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.main .statHolder .cardDark {
+  padding: 20px;
+  width: 49%;
+  margin: 10px 0;
+}
+
+.main .statHolder .cardDark .btnMain {
+  margin-top: 15px;
+}
+
+.main .statHolder .cardDark .w100 .bBlue::before {
+  background: #2651d0;
+}
+
+.main .statHolder .cardDark .w100 .bPurp::before {
+  background: #5a07a7;
+}
+
+.main .statHolder .cardDark .w100 .bBlue,
+.main .statHolder .cardDark .w100 .bPurp {
+  position: relative;
+}
+
+.main .statHolder .cardDark .w100 .bBlue::before,
+.main .statHolder .cardDark .w100 .bPurp::before {
+  position: absolute;
+  content: '';
+  left: -10px;
+  top: 10px;
+  width: 5px;
+  height: 5px;
+  border-radius: 100%;
+}
+
+.main .statHolder .cardDark .btnRound {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 15px;
+}
+
+#spoilers:hover,
+#spoilers:focus,
+#spoilers:active,
+#bumper:hover,
+#bumper:focus,
+#bumper:active,
+#wheels:hover,
+#wheels:focus,
+#wheels:active,
+#hood:hover,
+#hood:focus,
+#hood:active {
+  background: #2651d0;
+  -webkit-box-shadow: inset 0px 0px 3px #ffffff44;
+  box-shadow: inset 0px 0px 3px #ffffff44;
+}
+
+#engine,
+#turbine,
+#gasTanks {
+  margin-left: 15px;
+}
+
+.menu {
+  position: fixed;
+  z-index: 10;
+  bottom: 10px;
+  width: 80%;
+  margin: 0 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 15px;
+  background: #0d0e15;
+  border-radius: 25px;
+  
+}
+
+.menu .menuItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+}
+
+.menu .menuItem .menuItem_img {
+  width: 25px;
+  height: 25px;
+}
+
+.menu .menuItem .menuItem_text {
+  margin-top: 10px;
+}
+
+/*Mediaqueries*/
+/*# sourceMappingURL=style.css.map */
