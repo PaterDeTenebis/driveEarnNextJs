@@ -1,5 +1,3 @@
-import Link from 'next/link'
-
 export default function Menu() {
   return (
     <div className="menu">
@@ -15,7 +13,7 @@ export default function Menu() {
           <span className="menuItem_text textLight textSm ttu">wallet</span>
         </div>
       </a>
-      <a href="/dashboard" className="bodylink">
+      <a href="/" className="bodylink">
         <div className="menuItem">
           <img src="img/dash.svg" alt="statitic" className="menuItem_img" />
           <span className="menuItem_text textLight textSm ttu">dashboard</span>

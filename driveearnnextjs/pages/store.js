@@ -1,6 +1,5 @@
 import Menu from '../components/menu';
 import Header from '../components/header';
-import $ from 'jquery';
 
 export default function Store() {
   return (
