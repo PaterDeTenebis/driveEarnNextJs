@@ -63,7 +63,7 @@ export default function Home() {
                 type="range"
                 min="0"
                 max="15"
-                value="4"
+                defaultValue="4"
               />
               <div className="rangeMin rangeInd" id="fuelMin"></div>
               <div className="rangeMax rangeInd" id="fuelMax"></div>
@@ -78,7 +78,7 @@ export default function Home() {
             <span className="textLight textSm">24 h</span>
           </div>
           <div className="statsSingle_info">
-            <div className="textLight textMd">fuel left</div>
+            <div className="textLight textMd">distance</div>
             <div className="range">
               <input
                 className="rangeInput"
@@ -86,7 +86,7 @@ export default function Home() {
                 type="range"
                 min="0"
                 max="1000"
-                value="4"
+                defaultValue="600"
               />
               <div className="rangeMin rangeInd" id="distanceMin"></div>
               <div className="rangeMax rangeInd" id="distanceMax"></div>
@@ -107,8 +107,8 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <Menu />
       </main>
+      <Menu />
     </div>
   );
 }
